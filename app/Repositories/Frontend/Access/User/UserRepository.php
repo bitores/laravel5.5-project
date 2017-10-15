@@ -223,6 +223,10 @@ class UserRepository extends BaseRepository
     {
         $user = $this->findByConfirmationToken($token);
 
+        if($user == null){
+            throw new GeneralException(trans('exceptions.frontend.auth.confirmation.mismatch'));
+        }
+
         if ($user->confirmed == 1) {
             throw new GeneralException(trans('exceptions.frontend.auth.confirmation.already_confirmed'));
         }
@@ -234,6 +238,7 @@ class UserRepository extends BaseRepository
 
             return $user->save();
         }
+        
 
         throw new GeneralException(trans('exceptions.frontend.auth.confirmation.mismatch'));
     }
