@@ -4,7 +4,7 @@
 
 ### **1、简介**
 
-[Laravel](http://laravelacademy.org/tags/laravel) 5 [Boilerplate](http://laravelacademy.org/tags/boilerplate)不是一个网站，也是一个[建站工具](http://laravelacademy.org/tags/%e5%bb%ba%e7%ab%99%e5%b7%a5%e5%85%b7)，是基于当前Laravel最新版本（Laravel [5.5](http://laravelacademy.org/tags/5-1).*）并集成Boilerplate的项目。
+[Laravel](http://laravelacademy.org/tags/laravel) 5 [Boilerplate](http://laravelacademy.org/tags/boilerplate)是基于当前Laravel最新版本（Laravel [5.5](http://laravelacademy.org/tags/5-1).*）并集成Boilerplate的项目。
 
 ### **2、GitHub**
 
