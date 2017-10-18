@@ -42,7 +42,7 @@
 - 使用Elixir编译JS并自动将其置于HTML尾部
 - 帮助函数
 - JavaScript/jQuery片段
-- [Bootstrap 3（LESS/SASS）](http://www.getbootstrap.com/)
+- [Bootstrap 4（LESS/SASS）](http://www.getbootstrap.com/)
 - [HTML5 Boilerplate v5.0](http://www.html5boilerplate.com/)
 - [Font Awesome (LESS/SASS)](http://fortawesome.github.io/Font-Awesome/)
 - 全局消息/异常处理
