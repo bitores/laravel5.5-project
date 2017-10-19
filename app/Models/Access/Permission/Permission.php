@@ -4,13 +4,17 @@ namespace App\Models\Access\Permission;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Access\Permission\Traits\Relationship\PermissionRelationship;
+use App\Models\Access\Permission\Traits\Scope\PermissionScope;
+use App\Models\Access\Permission\Traits\Attribute\PermissionAttribute;
 
 /**
  * Class Permission.
  */
 class Permission extends Model
 {
-    use PermissionRelationship;
+    use PermissionScope,
+        PermissionAttribute,
+        PermissionRelationship;
 
     /**
      * The database table used by the model.
@@ -24,7 +28,7 @@ class Permission extends Model
      *
      * @var array
      */
-    protected $fillable = ['name', 'display_name', 'sort'];
+    protected $fillable = ['name', 'display_name'];
 
     /**
      * @param array $attributes

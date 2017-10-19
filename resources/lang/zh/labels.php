@@ -47,6 +47,18 @@ return [
                 ],
             ],
 
+            'permissions' => [
+                'create'     => '新建权限',
+                'edit'       => '编辑权限',
+                'management' => '权限管理',
+
+                'table' => [
+                    'ID'              => '排序',
+                    'display_name'    => '权限',
+                    'name'            => '名称',
+                ],
+            ],
+
             'users' => [
                 'active'              => '激活用户',
                 'all_permissions'     => '所有权限',

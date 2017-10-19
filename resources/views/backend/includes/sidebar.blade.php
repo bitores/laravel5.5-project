@@ -23,8 +23,8 @@
                     <button type='submit' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
                   </span><!--input-group-btn-->
         </div><!--input-group-->
-    {{ Form::close() }}
-    <!-- /.search form -->
+        {{ Form::close() }}
+        <!-- /.search form -->
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
@@ -68,6 +68,13 @@
                         <a href="{{ route('admin.access.role.index') }}">
                             <i class="fa fa-circle-o"></i>
                             <span>{{ trans('labels.backend.access.roles.management') }}</span>
+                        </a>
+                    </li>
+
+                    <li class="{{ active_class(Active::checkUriPattern('admin/access/permission*')) }}">
+                        <a href="{{ route('admin.access.permission.index') }}">
+                            <i class="fa fa-circle-o"></i>
+                            <span>{{ trans('labels.backend.access.permissions.management') }}</span>
                         </a>
                     </li>
                 </ul>

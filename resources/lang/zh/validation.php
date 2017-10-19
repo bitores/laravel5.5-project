@@ -133,6 +133,10 @@ return [
 
                     'name'   => '名称',
                     'system' => '系统?',
+
+                    'associated_permissions' => '关联的权限',
+                    'name'                   => '名称',
+                    'sort'                   => '排序',
                 ],
 
                 'roles' => [

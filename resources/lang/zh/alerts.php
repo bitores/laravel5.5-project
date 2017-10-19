@@ -14,6 +14,12 @@ return [
     */
 
     'backend' => [
+        'permissions' => [
+            'created' => '权限已成功创建。',
+            'deleted' => '权限已成功删除。',
+            'updated' => '权限已成功更新。',
+        ],
+
         'roles' => [
             'created' => '角色已成功创建。',
             'deleted' => '角色已成功删除。',

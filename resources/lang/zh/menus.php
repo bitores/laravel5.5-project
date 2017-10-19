@@ -25,6 +25,14 @@ return [
                 'main'       => '角色',
             ],
 
+            'permissions' => [
+                'all'        => '所有权限',
+                'create'     => '新建权限',
+                'edit'       => '编辑权限',
+                'management' => '权限管理',
+                'main'       => '权限',
+            ],
+
             'users' => [
                 'all'             => '所有用户',
                 'change-password' => '更改密码',

@@ -77,6 +77,8 @@ class RoleController extends Controller
      */
     public function edit(Role $role, ManageRoleRequest $request)
     {
+
+        // return 'asdfasdf';
         return view('backend.access.roles.edit')
             ->withRole($role)
             ->with('role_permissions',$role->permissions->pluck('id')->all())
