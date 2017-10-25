@@ -67,6 +67,9 @@ trait UserAttribute
      */
     public function getPicture($size = false)
     {
+        if($this->avatar){
+            return $this->avatar;
+        }
         if (! $size) {
             $size = config('gravatar.default.size');
         }

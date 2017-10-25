@@ -3,7 +3,7 @@
 @section ('title', trans('labels.backend.access.roles.management'))
 
 @section('after-styles')
-    {{ Html::style("https://cdn.datatables.net/v/bs/dt-1.10.15/datatables.min.css") }}
+    {{ Html::style("/css/backend/plugin/datatables/dataTables.bootstrap.min.css") }}
 @endsection
 
 @section('page-header')
@@ -51,7 +51,7 @@
 @endsection
 
 @section('after-scripts')
-    {{ Html::script("https://cdn.datatables.net/v/bs/dt-1.10.15/datatables.min.js") }}
+    {{ Html::script("/js/backend/plugin/dt-1.10.15/datatables.min.js") }}
     {{ Html::script("js/backend/plugin/datatables/dataTables-extend.js") }}
 
     <script>
