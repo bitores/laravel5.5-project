@@ -13,7 +13,7 @@ Route::group([
      * User Management
      */
     Route::group([
-        'middleware' => 'access.routeNeedsRole:1',
+        'middleware' => 'access.routeNeedsRole:1', // 要求必须是超级管理员，且只有一个
     ], function () {
         Route::group(['namespace' => 'User'], function () {
             /*

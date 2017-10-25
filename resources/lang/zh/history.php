@@ -18,6 +18,11 @@ return [
         'none_for_entity' => '没有 :entity 的历史。',
         'recent_history'  => '最近的历史',
 
+        'permissions' => [
+            'created' => '创建了权限',
+            'deleted' => '删除了权限',
+            'updated' => '更新了权限',
+        ],
         'roles' => [
             'created' => '创建了角色',
             'deleted' => '删除了角色',
