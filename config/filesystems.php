@@ -50,7 +50,10 @@ return [
 
         'public' => [
             'driver' => 'local',
-            'root' => storage_path('app/public'),
+            // 文件 将上传到 storage/app/uploads
+            // 'root' => storage_path('app/public'),
+            // 文件 将上传到 public/uploads
+            'root' => public_path('uploads'),
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
@@ -62,6 +65,12 @@ return [
             'region' => env('AWS_REGION'),
             'bucket' => env('AWS_BUCKET'),
         ],
+
+        'images' => [
+            'driver' => 'local',
+            'root'   => public_path('img'),
+            'path'   => '/img'
+        ]
 
     ],
 

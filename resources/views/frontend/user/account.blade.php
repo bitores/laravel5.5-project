@@ -1,5 +1,9 @@
 @extends('frontend.layouts.app')
 
+@section('after-styles')
+<link rel="stylesheet" href="{{asset('/js/layui/css/layui.css')}}">
+@endsection
+
 @section('content')
     <div class="row">
 
@@ -33,6 +37,7 @@
 
                             <div role="tabpanel" class="tab-pane mt-30 active" id="profile">
                                 @include('frontend.user.account.tabs.profile')
+
                             </div><!--tab panel profile-->
 
                             <div role="tabpanel" class="tab-pane mt-30" id="edit">

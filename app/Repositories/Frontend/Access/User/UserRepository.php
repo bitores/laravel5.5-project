@@ -304,6 +304,20 @@ class UserRepository extends BaseRepository
         throw new GeneralException(trans('exceptions.frontend.auth.password.change_mismatch'));
     }
 
+
+    public function changeAvatar($avatar)
+    {
+        $user = $this->find(access()->id());
+
+        if ($avatar) {
+            $user->avatar = $avatar;
+
+            return $user->save();
+        }
+
+        throw new GeneralException(trans('exceptions.frontend.auth.password.change_mismatch'));
+    }
+
     /**
      * @param $fullName
      *
