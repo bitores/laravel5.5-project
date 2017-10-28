@@ -88,7 +88,7 @@
 
                         <li class="user-body">
                             <div class="col-xs-4 text-center">
-                                {{ link_to('#', 'Link') }}
+                                {{ link_to(route("frontend.user.account"), '账户') }}
                             </div>
                             <div class="col-xs-4 text-center">
                                 {{ link_to('#', 'Link') }}
