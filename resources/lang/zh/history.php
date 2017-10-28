@@ -30,7 +30,7 @@ return [
         ],
         'users' => [
             'changed_password'    => '更改了用户密码',
-            'confirmed'           => 'confirmed user',
+            'confirmed'           => '已确认过',
             'created'             => '创建了用户',
             'deactivated'         => '停用了用户',
             'deleted'             => '删除了用户',

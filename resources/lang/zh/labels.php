@@ -126,8 +126,8 @@ return [
         ],
 
         'contact' => [
-            'box_title' => 'Contact Us',
-            'button' => 'Send Information',
+            'box_title' => '联系我们',
+            'button' => '发送信息',
         ],
 
         'passwords' => [
@@ -160,7 +160,7 @@ return [
                 'canada' => 'Canada Province & Territories List',
             ],
 
-            'timezone' => 'Timezone',
+            'timezone' => '时区',
         ],
 
         'user' => [

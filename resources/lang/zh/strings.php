@@ -72,7 +72,7 @@ return [
 
     'emails' => [
         'auth' => [
-            'account_confirmed' => 'Your account has been confirmed.',
+            'account_confirmed' => '你的账户已确认。',
             'error'                   => '哎呀！',
             'greeting'                => '你好！',
             'regards'                 => '问候,',
@@ -127,10 +127,10 @@ return [
         ],
 
         'user' => [
-            'change_email_notice' => 'If you change your e-mail you will be logged out until you confirm your new e-mail address.',
-            'email_changed_notice' => 'You must confirm your new e-mail address before you can log in again.',
-            'profile_updated'  => 'Profile successfully updated.',
-            'password_updated' => 'Password successfully updated.',
+            'change_email_notice' => '如果您更改电子邮件，您将被登出，直到您确认您的新电子邮件地址为止。',
+            'email_changed_notice' => '在再次登录之前，必须确认您的新电子邮件地址。',
+            'profile_updated'  => '个人资料已更新.',
+            'password_updated' => '密码已修改.',
         ],
 
         'welcome_to' => '欢迎来到 :place',

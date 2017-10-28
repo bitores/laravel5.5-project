@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 
-@section('title', app_name() . ' | Contact Us')
+@section('title', app_name() . ' | 联系我们')
 
 @section('content')
     <div class="row">
